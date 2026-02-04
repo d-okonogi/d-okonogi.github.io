@@ -78,9 +78,18 @@
     ],
     "container-title": "LSIとシステムのワークショップ",
     "id": "okonogi2022lsiws",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          10
+        ]
+      ]
+    },
     "title": "ピンニングパラメータの自律制御機構を搭載した全スピン並列更新アニーリングマシン",
     "type": "paper-conference",
-    "sort_date": 101
+    "sort_date": 20220510
   },
   {
     "author": [

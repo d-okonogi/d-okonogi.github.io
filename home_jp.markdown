@@ -66,6 +66,29 @@ description: "小此木大輝 - 東京科学大学 博士課程学生。研究�
 </section>
 
 <section>
+<h2>国内学会発表</h2>
+{% assign target_author = "小此木 大輝" %}
+{% assign sorted_domestic = site.data.domestic | sort: "sort_date" | reverse %}
+<div class="pub-list">
+  {% for item in sorted_domestic %}
+    <div class="pub-item">
+      <span class="pub-title">{{ item.title }}</span>
+      <div class="pub-meta">
+        <span class="pub-authors">
+          {% for author in item.author %}
+            {% capture name %}{{ author.family }} {{ author.given }}{% endcapture %}
+            <span class="{% if name == target_author %}my-name{% endif %}">{{ name }}</span>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
+        <span class="pub-journal"><i>{{ item['container-title'] }}</i></span>
+        <span class="pub-year">{% if item.issued %}({{ item.issued.date-parts[0][0] }}){% endif %}</span>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+</section>
+
+<section>
 <h2>連絡先</h2>
 <div class="contact-info">
 <p><strong>メール：</strong>okonogi.daiki <span style='color:#f00'>at</span> artic.iir.isct.ac.jp</p>
