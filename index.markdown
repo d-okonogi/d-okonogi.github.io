@@ -35,10 +35,12 @@ Research interests: combinatorial optimization, hyperparameter optimization, neu
   <div class="timeline-item">
     <span class="date">2023 - Present</span>
     <p class="description">Ph.D. in Engineering, Institute of Science Tokyo</p>
+    <p class="note">School of Engineering, Department of Information and Communications Engineering</p>
   </div>
   <div class="timeline-item">
     <span class="date">2021 - 2023</span>
     <p class="description">M.S. in Engineering, Tokyo Institute of Technology (currently Institute of Science Tokyo)</p>
+    <p class="note">School of Engineering, Department of Information and Communications Engineering</p>
   </div>
   <div class="timeline-item">
     <span class="date">2019 - 2021</span>
