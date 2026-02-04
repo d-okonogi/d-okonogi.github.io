@@ -1,0 +1,123 @@
+[
+  {
+    "author": [
+      {
+        "family": "小此木",
+        "given": "大輝"
+      },
+      {
+        "family": "神保",
+        "given": "聡"
+      },
+      {
+        "family": "安藤",
+        "given": "洸汰"
+      },
+      {
+        "family": "Thiem Van",
+        "given": "Chu"
+      },
+      {
+        "family": "劉",
+        "given": "載勲"
+      },
+      {
+        "family": "本村",
+        "given": "真人"
+      },
+      {
+        "family": "川村",
+        "given": "一志"
+      }
+    ],
+    "container-title": "第5回量子ソフトウェア研究発表会",
+    "id": "okonogi2022qs5",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          25
+        ]
+      ]
+    },
+    "title": "全並列アニーリングのための自律的パラメータ制御",
+    "type": "paper-conference",
+    "sort_date": 20220325
+  },
+  {
+    "author": [
+      {
+        "family": "小此木",
+        "given": "大輝"
+      },
+      {
+        "family": "神保",
+        "given": "聡"
+      },
+      {
+        "family": "安藤",
+        "given": "洸汰"
+      },
+      {
+        "family": "Thiem Van",
+        "given": "Chu"
+      },
+      {
+        "family": "劉",
+        "given": "載勲"
+      },
+      {
+        "family": "本村",
+        "given": "真人"
+      },
+      {
+        "family": "川村",
+        "given": "一志"
+      }
+    ],
+    "container-title": "LSIとシステムのワークショップ",
+    "id": "okonogi2022lsiws",
+    "title": "ピンニングパラメータの自律制御機構を搭載した全スピン並列更新アニーリングマシン",
+    "type": "paper-conference",
+    "sort_date": 101
+  },
+  {
+    "author": [
+      {
+        "family": "小此木",
+        "given": "大輝"
+      },
+      {
+        "family": "神保",
+        "given": "聡"
+      },
+      {
+        "family": "Thiem Van",
+        "given": "Chu"
+      },
+      {
+        "family": "本村",
+        "given": "真人"
+      },
+      {
+        "family": "川村",
+        "given": "一志"
+      }
+    ],
+    "container-title": "第12回量子ソフトウェア研究発表会",
+    "id": "okonogi2024qs12",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ]
+    },
+    "title": "農機シェアリング問題を対象としたスケーラブルなイジングモデル定式化手法",
+    "type": "paper-conference",
+    "sort_date": 20240628
+  }
+]

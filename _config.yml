@@ -1,8 +1,18 @@
 # Site settings
-title: "Researcher's Homepage"
-description: "Academic Homepage"
+title: "Daiki Okonogi"
+description: "Daiki Okonogi is a doctoral student at Institute of Science Tokyo, researching combinatorial optimization, hyperparameter optimization, and neural solvers."
 baseurl: ""
-url: ""
+url: "https://d-okonogi.github.io"
+author: "Daiki Okonogi"
+locale: "en_US"
+
+# Social
+twitter_username: ""
+github_username: "d-okonogi"
+linkedin_username: "daikiokonogi"
+
+# SEO
+google_site_verification: ""
 
 # Build settings
 markdown: kramdown

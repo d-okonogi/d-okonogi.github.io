@@ -3,6 +3,7 @@ layout: default
 title: Publications
 lang: en
 permalink: /publications.html
+description: "Academic publications by Daiki Okonogi - journal articles and conference papers on combinatorial optimization, hyperparameter optimization, and neural solvers."
 ---
 
 <h1>Publications</h1>

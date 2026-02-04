@@ -3,7 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ '/assets/images/profile.jpg' | absolute_url }}">
+  <meta property="og:locale" content="{{ site.locale | default: 'en_US' }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ '/assets/images/profile.jpg' | absolute_url }}">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daiki Okonogi",
+    "url": "{{ site.url }}",
+    "image": "{{ '/assets/images/profile.jpg' | absolute_url }}",
+    "jobTitle": "Doctoral Student",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Institute of Science Tokyo"
+    },
+    "alumniOf": [
+      {
+        "@type": "Organization",
+        "name": "Tokyo Institute of Technology"
+      }
+    ],
+    "sameAs": [
+      "https://linkedin.com/in/daikiokonogi",
+      "https://github.com/d-okonogi",
+      "https://scholar.google.com/citations?user=K8b32g8AAAAJ",
+      "https://orcid.org/0009-0007-0329-3063"
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">

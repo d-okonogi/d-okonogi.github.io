@@ -3,6 +3,7 @@ layout: default
 title: ホーム
 lang: ja
 permalink: /home_jp.html
+description: "小此木大輝 - 東京科学大学 博士課程学生。研究分野：組合せ最適化、ハイパーパラメータ最適化、ニューラルソルバー"
 ---
 
 <div class="profile-header">

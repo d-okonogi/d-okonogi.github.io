@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Home
+title: "Home"
 lang: en
+description: "Daiki Okonogi - Doctoral student at Institute of Science Tokyo. Research interests: combinatorial optimization, hyperparameter optimization, neural solver."
 ---
 
 <div class="profile-header">
