@@ -383,8 +383,16 @@ footer {
     padding-left: 1.25rem;
   }
 
+  .timeline::before {
+    left: 3px;
+  }
+
   .timeline-item {
     padding-left: 0.75rem;
+  }
+
+  .timeline-item::before {
+    left: -1.25rem;
   }
 
   .timeline-item .date {
@@ -446,5 +454,17 @@ footer {
 
   .container {
     padding: 0.75rem;
+  }
+
+  .timeline {
+    padding-left: 1rem;
+  }
+
+  .timeline::before {
+    left: 2px;
+  }
+
+  .timeline-item::before {
+    left: -1rem;
   }
 }
