@@ -37,7 +37,7 @@
 /* Base styles */
 :root {
   --primary-color: #2c3e50;
-  --secondary-color: #3498db;
+  --secondary-color: #0072bc;
   --text-color: #333;
   --bg-color: #fafafa;
   --card-bg: #fff;
@@ -137,15 +137,6 @@ body {
 section {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
-  background-color: var(--card-bg);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-section.no-bg {
-  background-color: transparent;
-  box-shadow: none;
-  padding: 0;
 }
 
 section h2 {
@@ -159,13 +150,19 @@ section h2 {
 /* Timeline for education/career */
 .timeline {
   position: relative;
-  padding-left: 1.5rem;
+  border-radius:8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--card-bg);
 }
 
 .timeline::before {
   content: '';
   position: absolute;
-  left: 4px;
+  left: 2.25rem;
   top: 0;
   bottom: 0;
   width: 2px;

@@ -27,31 +27,33 @@ description: "小此木大輝 - 東京科学大学 博士課程学生。研究�
 <p>研究分野：組合せ最適化、ハイパーパラメータ最適化、ニューラルソルバー</p>
 </section>
 
-<section>
+<section class="no-bg">
 <h2>学歴</h2>
 <div class="timeline">
   <div class="timeline-item">
     <span class="date">2023年 - 現在</span>
     <p class="description">東京科学大学 工学院 博士後期課程</p>
+    <p class="note">情報通信系・情報通信コース</p>
   </div>
   <div class="timeline-item">
     <span class="date">2021年 - 2023年</span>
-    <p class="description">東京工業大学（現 東京科学大学）工学院 修士課程 修了</p>
+    <p class="description">東京工業大学（現 東京科学大学）工学院 修士課程</p>
+    <p class="note">情報通信系・情報通信コース</p>
   </div>
   <div class="timeline-item">
     <span class="date">2019年 - 2021年</span>
-    <p class="description">群馬工業高等専門学校 専攻科 修了</p>
+    <p class="description">群馬工業高等専門学校 専攻科</p>
     <p class="note">生産システム工学専攻</p>
   </div>
   <div class="timeline-item">
     <span class="date">2014年 - 2019年</span>
-    <p class="description">群馬工業高等専門学校 本科 卒業</p>
+    <p class="description">群馬工業高等専門学校 本科</p>
     <p class="note">電子情報工学科</p>
   </div>
 </div>
 </section>
 
-<section>
+<section class="no-bg">
 <h2>職歴</h2>
 <div class="timeline">
   <div class="timeline-item">
