@@ -21,7 +21,7 @@ description: "小此木大輝 - 東京科学大学 博士課程学生。研究�
   <a href="https://github.com/d-okonogi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
 </div>
 
-<section>
+<section class="no-bg">
 <h2>自己紹介</h2>
 <p>東京科学大学 AI Computing Research Unit (ArtIC) 博士課程3年の学生です。</p>
 <p>研究分野：組合せ最適化、ハイパーパラメータ最適化、ニューラルソルバー</p>
@@ -65,7 +65,7 @@ description: "小此木大輝 - 東京科学大学 博士課程学生。研究�
 </div>
 </section>
 
-<section>
+<section class="no-bg">
 <h2>国内学会発表</h2>
 {% assign target_author = "小此木 大輝" %}
 {% assign sorted_domestic = site.data.domestic | sort: "sort_date" | reverse %}
@@ -88,9 +88,7 @@ description: "小此木大輝 - 東京科学大学 博士課程学生。研究�
 </div>
 </section>
 
-<section>
+<section class="no-bg">
 <h2>連絡先</h2>
-<div class="contact-info">
 <p><strong>メール：</strong>okonogi.daiki <span style='color:#f00'>at</span> artic.iir.isct.ac.jp</p>
-</div>
 </section>

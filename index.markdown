@@ -19,7 +19,7 @@ description: "Daiki Okonogi - Doctoral student at Institute of Science Tokyo. Re
   <a href="https://github.com/d-okonogi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
 </div>
 
-<section>
+<section class="no-bg">
 <h2>About</h2>
 <p>
 I am a third-year doctoral student in AI Computing Research Unit (ArtIC) at Institute of Science Tokyo.
@@ -67,9 +67,7 @@ Research interests: combinatorial optimization, hyperparameter optimization, neu
 </div>
 </section>
 
-<section>
+<section class="no-bg">
 <h2>Contact</h2>
-<div class="contact-info">
 <p><strong>Email:</strong> okonogi.daiki <span style='color:#f00'>at</span> artic.iir.isct.ac.jp</p>
-</div>
 </section>

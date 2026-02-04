@@ -12,12 +12,16 @@
 
 .japan-map-svg {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120%;
-  height: 120%;
-  opacity: 0.15;
+  width: 180%;
+  height: 180%;
+  opacity: 0.25;
+}
+
+.prefecture {
+  transition: fill 0.3s ease;
 }
 
 .prefecture {
@@ -138,6 +142,12 @@ section {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+section.no-bg {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
 section h2 {
   color: var(--primary-color);
   font-size: 1.5rem;
@@ -253,6 +263,15 @@ section h2 {
   border-bottom: 2px solid var(--secondary-color);
 }
 
+.pub-item-simple {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pub-item-simple:last-child {
+  border-bottom: none;
+}
+
 /* Read Paper button */
 .btn-read-paper {
   display: inline-block;
@@ -273,10 +292,7 @@ section h2 {
 
 /* Contact info */
 .contact-info {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 
 .contact-info p {
