@@ -1,0 +1,161 @@
+[
+  {
+    "DOI": "10.1109/ACCESS.2025.3620896",
+    "ISSN": "2169-3536",
+    "URL": "https://ieeexplore.ieee.org/document/11202483/",
+    "sort_date": 20250101,
+    "author": [
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Inoue", "given": "Genta"},
+      {"family": "Hyodo", "given": "Akira"},
+      {"family": "Ando", "given": "Kota"},
+      {"family": "Hideki Fukushima-Kimura", "given": "Bruno"},
+      {"family": "Yasudo", "given": "Ryota"},
+      {"family": "Van Chu", "given": "Thiem"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "IEEE Access",
+    "id": "okonogiAmorphicaFullyConnected2025",
+    "issued": {"date-parts": [[2025]]},
+    "page": "178571-178586",
+    "title": "Amorphica: A fully connected annealer supporting metamorphic annealing and scalable multi chip integration",
+    "type": "article-journal",
+    "volume": "13"
+  },
+  {
+    "DOI": "10.1587/transinf.2024PAP0007",
+    "ISSN": "0916-8532, 1745-1361",
+    "URL": "https://www.jstage.jst.go.jp/article/transinf/E108.D/1/E108.D_2024PAP0007/_article",
+    "sort_date": 20250101,
+    "author": [
+      {"family": "Inoue", "given": "Genta"},
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Chu", "given": "Thiem Van"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "IEICE Transactions on Information and Systems",
+    "id": "inoueFlipcountbasedDynamicTemperature2025",
+    "issue": "1",
+    "issued": {"date-parts": [[2025, 1, 1]]},
+    "page": "12-22",
+    "title": "A flip-count-based dynamic temperature control method for constrained combinatorial optimization by parallel annealing algorithms",
+    "type": "article-journal",
+    "volume": "E108.D"
+  },
+  {
+    "DOI": "10.1587/transinf.2023PAP0003",
+    "ISSN": "0916-8532, 1745-1361",
+    "URL": "https://www.jstage.jst.go.jp/article/transinf/E106.D/12/E106.D_2023PAP0003/_article",
+    "sort_date": 20231201,
+    "author": [
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Ando", "given": "Kota"},
+      {"family": "Chu", "given": "Thiem Van"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "IEICE Transactions on Information and Systems",
+    "id": "okonogiFullyparallelAnnealingAlgorithm2023",
+    "issue": "12",
+    "issued": {"date-parts": [[2023, 12, 1]]},
+    "page": "1969-1978",
+    "title": "A fully-parallel annealing algorithm with autonomous pinning effect control for various combinatorial optimization problems",
+    "type": "article-journal",
+    "volume": "E106.D"
+  },
+  {
+    "DOI": "10.1587/transinf.2022PAP0006",
+    "ISSN": "0916-8532, 1745-1361",
+    "URL": "https://www.jstage.jst.go.jp/article/transinf/E105.D/12/E105.D_2022PAP0006/_article",
+    "sort_date": 20221201,
+    "author": [
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Ando", "given": "Kota"},
+      {"family": "Chu", "given": "Thiem Van"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "IEICE Transactions on Information and Systems",
+    "id": "jimboHybridIntegerEncoding2022",
+    "issue": "12",
+    "issued": {"date-parts": [[2022, 12, 1]]},
+    "page": "2019-2031",
+    "title": "A hybrid integer encoding method for obtaining high-quality solutions of quadratic knapsack problems on solid-state annealers",
+    "type": "article-journal",
+    "volume": "E105.D"
+  },
+  {
+    "DOI": "10.1109/COOLCHIPS57690.2023.10121990",
+    "ISBN": "979-8-3503-3201-8",
+    "URL": "https://ieeexplore.ieee.org/document/10121990/",
+    "sort_date": 20230419,
+    "author": [
+      {"family": "Inoue", "given": "Genta"},
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Chu", "given": "Thiem Van"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "2023 IEEE Symposium in Low-Power and High-Speed Chips (COOL CHIPS)",
+    "id": "inoueFlexiblyControllableDynamic2023",
+    "issued": {"date-parts": [[2023, 4, 19]]},
+    "page": "1-3",
+    "publisher": "IEEE",
+    "title": "Flexibly controllable dynamic cooling methods for solid-state annealing processors to improve combinatorial optimization performance",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1109/ISSCC42615.2023.10067504",
+    "ISSN": "2376-8606",
+    "sort_date": 20230201,
+    "author": [
+      {"family": "Kawamura", "given": "Kazushi"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Inoue", "given": "Genta"},
+      {"family": "Hyodo", "given": "Akira"},
+      {"family": "García-Anas", "given": "Ángel López"},
+      {"family": "Ando", "given": "Kota"},
+      {"family": "Fukushima-Kimura", "given": "Bruno Hideki"},
+      {"family": "Yasudo", "given": "Ryota"},
+      {"family": "Chu", "given": "Thiem Van"},
+      {"family": "Motomura", "given": "Masato"}
+    ],
+    "container-title": "2023 IEEE International Solid-State Circuits Conference (ISSCC)",
+    "id": "kawamuraAmorphica4replica5122023",
+    "issued": {"date-parts": [[2023, 2]]},
+    "page": "42-44",
+    "title": "Amorphica: 4-replica 512 fully connected spin 336mhz metamorphic annealer with programmable optimization strategy and compressed-spin-transfer multi-chip extension",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.1109/IPDPSW55747.2022.00078",
+    "sort_date": 20220501,
+    "author": [
+      {"family": "Okonogi", "given": "Daiki"},
+      {"family": "Jimbo", "given": "Satoru"},
+      {"family": "Ando", "given": "Kota"},
+      {"family": "Van Chu", "given": "Thiem"},
+      {"family": "Yu", "given": "Jaehoon"},
+      {"family": "Motomura", "given": "Masato"},
+      {"family": "Kawamura", "given": "Kazushi"}
+    ],
+    "container-title": "2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+    "id": "okonogiAPCSCAFullyparallelAnnealing2022",
+    "issued": {"date-parts": [[2022, 5]]},
+    "page": "414-420",
+    "title": "APC-SCA: A fully-parallel annealing algorithm with autonomous pinning effect control",
+    "type": "paper-conference"
+  }
+]
