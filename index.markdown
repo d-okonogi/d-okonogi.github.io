@@ -9,7 +9,7 @@ description: "Daiki Okonogi - Doctoral student at Institute of Science Tokyo. Re
   <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Photo" class="profile-photo">
   <h1>Daiki Okonogi</h1>
   <p class="title">Doctoral Student</p>
-  <p class="affiliation">Department of Engineering, Institute of Science Tokyo</p>
+  <p class="affiliation">School of Engineering, Institute of Science Tokyo</p>
   <p class="location">Kanagawa, Japan</p>
 </div>
 <div class="social-links">
