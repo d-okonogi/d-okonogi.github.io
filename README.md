@@ -13,6 +13,6 @@ $ ./generate_references.sh
 To debug the site locally, run:
 
 ```sh
-$ bundle exec jekyll serve
+docker compose up -d
 ```
 
