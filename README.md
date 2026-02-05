@@ -1,6 +1,6 @@
 # My Homepage
 
-[[https://d-okonogi.github.io]]
+https://d-okonogi.github.io
 
 ## Update Bibliography
 
