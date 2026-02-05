@@ -7,7 +7,7 @@
 Update `./_data/references.bib` or `./_data/domestic.bib` (for Japan domestic papers) as needed, then run:
 
 ```sh
-$ ./generate_references.sh
+./generate_references.sh
 ```
 
 ## Debug
